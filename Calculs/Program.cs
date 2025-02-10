@@ -31,8 +31,8 @@ namespace Calculs
                 switch (choix)
                 {
                     case "1": // addition
-                        val1 = rand.Next(1, 10);
-                        val2 = rand.Next(1, 10);
+                        val1 = rand.Next(1, 10); val2 = rand.Next(1, 10);
+
                         // saisie de la réponse
                         correct = false;
                         while (!correct)
